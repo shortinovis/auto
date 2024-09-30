@@ -13,7 +13,21 @@ public class Auto {
         marca=marc;
         prezzo=prez;
     }
-
+    public Auto (String marc){
+        marca=marc;
+        modello=null;
+        prezzo=0.0;
+    }
+    public Auto (String marc, String mod){
+        modello=mod;
+        marca=marc;
+        prezzo=0.0;
+    }
+    public Auto (String marc, double prez){
+        modello=null;
+        marca=marc;
+        prezzo=prez;
+    }
     public String getModello() {
         return modello;
     }
