@@ -28,6 +28,11 @@ public class Auto {
         marca=marc;
         prezzo=prez;
     }
+    public Auto ( double prez, String mod){
+        modello=mod;
+        marca=null;
+        prezzo=prez;
+    }
     public String getModello() {
         return modello;
     }

@@ -8,7 +8,7 @@ public class TestAuto {
         Auto a3 = new Auto();
         Auto a4 = new Auto();
 
-        System.out.println("dammi modello macchina1"); a1.setModello(t.nextLine());
+        System.out.println("dammi modello macchina1");a1.setModello(t.nextLine());
         System.out.println("dammi mmarca macchina1");a1.setMarca(t.nextLine());
         System.out.println("dammi prezzo macchina1");a1.setPrezzo(t.nextDouble());
         t.nextLine();
